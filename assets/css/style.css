@@ -42,8 +42,12 @@ body {
   grid-template-columns: 2.5fr 7fr;
 }
 
-.card {
+.card-vertical {
   max-width: 18rem;
+}
+
+.grid-col-two-right-expand-md {
+  grid-template-columns: 4fr 6fr;
 }
 
 .listing-container {
@@ -58,6 +62,10 @@ body {
 
 .text-link:hover {
   color: var(--red-6);
+}
+
+.text-green {
+  color: var(--green-6);
 }
 
 /* Footer Social Links */
@@ -89,4 +97,9 @@ body {
 .sidebar-item-link {
   display: block;
   margin-left: 1rem;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
 }
