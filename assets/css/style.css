@@ -30,16 +30,24 @@ body {
   height: 30rem;
 }
 
+.grid-col-three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .grid-col-four {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-col-two-right-expand {
+  grid-template-columns: 2.5fr 7fr;
 }
 
 .card {
   max-width: 18rem;
 }
 
-.category-listing {
-  background-color: var(--gray-1);
+.listing-container {
+  background-color: var(--gray-0);
   padding: 2.5rem;
   overflow: hidden;
 }
@@ -51,6 +59,7 @@ body {
 .text-link:hover {
   color: var(--red-6);
 }
+
 /* Footer Social Links */
 .social-links {
   display: flex;
@@ -64,4 +73,20 @@ body {
 
 .social-links a:hover {
   color: var(--text-primary);
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.sidebar-item {
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+.sidebar-item-link {
+  display: block;
+  margin-left: 1rem;
 }
