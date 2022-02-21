@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Wrixby ECom || An E-Commerce Store</title>
+    <script src="https://kit.fontawesome.com/303bcab846.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="nav">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-logo">
+                    <h3 class="text-primary">Wrixby ECom</h3>
+                </a>
+            </div>
+            <ul class="navbar-menu">
+                <li class="nav-link">
+                    <a href="/products/">
+                        Products
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="/auth/login.html">
+                        <button class="button button-primary button-round">
+                            Login
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="/wishlist/">
+                        <button class="button button-info-outline button-floating">
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a href="/cart/">
+                        <button class="button button-warning button-floating">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="listing-container margin-vertical-5 border-radius-sm margin-horizontal-auto">
+                <div class="card card-vertical border-radius-md">
+                    <div class="card-header text-center">
+                        <h3>Login</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="javascrpt:;" class="form">
+                            <div class="margin-bottom-3">
+                                <label for="TxtEmail" class="form-label">
+                                    <strong>Email Address</strong>
+                                </label>
+                                <input type="text" name="" placeholder="Enter Your Email ID" id="TxtEmail"
+                                    class="form-input border-radius-md margin-vertical-2" />
+                            </div>
+                            <div>
+                                <label for="TxtPassword" class="form-label">
+                                    <strong>Password</strong>
+                                </label>
+                                <input type="password" name="" placeholder="************" id="TxtPassword"
+                                    class="form-input has-error border-radius-md margin-vertical-2" />
+                                <small class="form-message error-message">
+                                    Sorry! Your Password is incorrect.
+                                </small>
+                            </div>
+                            <button type="submit"
+                                class="button button-info-outline width-100 button-small margin-vertical-5 border-radius-md">Login</button>
+                        </form>
+                        <p class="text-center">
+                            Don't have account? <a href="/auth/signup.html" class="text-link">Signup</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="margin-vertical-5">
+        <div class="container justify-content-center align-items-center flex-direction-column">
+            <div class="margin-vertical-2">
+                Made with by
+                <i class="fa-solid fa-heart fa-beat text-red" style="--fa-animation-duration: 0.5s"></i>
+                <a href="http://keshavkumar.in" class="text-link">Keshav Kumar</a>.
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/keshavkumar-in/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github fa-xl" aria-label="Github"></i>
+                </a>
+                <a href="https://twitter.com/keshavkumar_in" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-twitter fa-xl" aria-label="Twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/keshavkumar-in/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin fa-xl" aria-label="LinkedIn"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
