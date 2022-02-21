@@ -21,7 +21,7 @@
 
 ## Demo
 
-![App Screenshot](https://wrixbyui.netlify.app/assets/images/Wrixby ECom.png)
+![App Screenshot](https://wrixbyui.netlify.app/assets/images/Wrixby%20ECom.png)
 
 
 ## Tech Stack:
